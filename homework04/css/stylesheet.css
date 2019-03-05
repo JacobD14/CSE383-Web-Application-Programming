@@ -1,0 +1,59 @@
+/* elements */
+body {
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+header {
+    background-color: rgb(148, 69, 148);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+section {
+    background-color: rgb(184, 178, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+footer {
+    background-color: rgb(148, 69, 148);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+input {
+    margin-bottom: 10px;
+}
+
+/* classes */
+.center {
+    text-align: center;
+}
+
+/* id */
+#check {
+    width: 400px;
+    float: left;
+    margin: 5px;
+}
+#submit {
+    background-color: yellow;
+    margin: 10px auto;
+    display: block;
+}
+#footerLogo {
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding-left: 300px;
+}
+#contactInfo {
+    height: 110px;
+    display: inline-block;
+    padding-left: 300px;
+    padding-top: 40px;
+}

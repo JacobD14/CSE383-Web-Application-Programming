@@ -1,0 +1,204 @@
+<!--
+    Copyright Jacob Decker 2019 deckerjr@miamioh.edu
+    Homework04
+    index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jacob Decker - homework04</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <strong>CSE383</strong> Homework04
+        </header>
+        <section>
+            <form action="http://ceclnx01.cec.miamioh.edu/~castroa/cse383/homework04/response.html">
+                <h1>Group Potency</h1>
+
+                <label for="first">First Name:</label>
+                <input type="text" id="first" name="first">
+
+                <label for="last">Last Name:</label>
+                <input type="text" id="last" name="last">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" size="40">
+
+                <label for="term">Term:</label>
+                <select id="term" name="term">
+                    <option value="fall2018">Fall 2018</option>
+                    <option value="winter2019">Winter 2019</option>
+                    <option value="spring2019">Spring 2019</option>
+                </select>
+
+                <p>1. The team has confidence in itself.</p>
+                <div class="center">
+                    <input type="radio" name="6" value="1" id="1none">
+                    <label for="1none">To No Extent</label>
+
+                    <input type="radio" name="6" value="2" id="1limited">
+                    <label for="1limited">To A Limited Extent</label>
+
+                    <input type="radio" name="6" value="3" id="1some">
+                    <label for="1some">To Some Extent</label>
+
+                    <input type="radio" name="6" value="4" id="1considerable">
+                    <label for="1considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="6" value="5" id="1great">
+                    <label for="1great">To Great Extent</label>
+                </div>
+                <br>
+                <p>2. This team believes it can become unusually good at producing.</p>
+                <div class="center">
+                    <input type="radio" name="q2" value="1" id="2none">
+                    <label for="2none">To No Extent</label>
+
+                    <input type="radio" name="q2" value="2" id="2limited">
+                    <label for="2limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q2" value="3" id="2some">
+                    <label for="2some">To Some Extent</label>
+
+                    <input type="radio" name="q2" value="4" id="2considerable">
+                    <label for="2considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q2" value="5" id="2great">
+                    <label for="2great">To Great Extent</label>
+                </div>
+                <br>
+                <p>3. This team expects to be known as a high-performing team.</p>
+                <div class="center">
+                    <input type="radio" name="q3" value="1" id="3none">
+                    <label for="3none">To No Extent</label>
+
+                    <input type="radio" name="q3" value="2" id="3limited">
+                    <label for="3limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q3" value="3" id="3some">
+                    <label for="3some">To Some Extent</label>
+
+                    <input type="radio" name="q3" value="4" id="3considerable">
+                    <label for="3considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q3" value="5" id="3great">
+                    <label for="3great">To Great Extent</label>
+                </div>
+                <br>
+                <p>4. This team feels it can solve any problem it encounters.</p>
+                <div class="center">
+                    <input type="radio" name="q4" value="1" id="4none">
+                    <label for="4none">To No Extent</label>
+
+                    <input type="radio" name="q4" value="2" id="4limited">
+                    <label for="4limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q4" value="3" id="4some">
+                    <label for="4some">To Some Extent</label>
+
+                    <input type="radio" name="q4" value="4" id="4considerable">
+                    <label for="4considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q4" value="5" id="4great">
+                    <label for="4great">To Great Extent</label>
+                </div>
+                <br>
+                <p>5. This team believes it can be very productive.</p>
+                <div class="center">
+                    <input type="radio" name="q5" value="1" id="5none">
+                    <label for="5none">To No Extent</label>
+
+                    <input type="radio" name="q5" value="2" id="5limited">
+                    <label for="5limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q5" value="3" id="5some">
+                    <label for="5some">To Some Extent</label>
+
+                    <input type="radio" name="q5" value="4" id="5considerable">
+                    <label for="5considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q5" value="5" id="5great">
+                    <label for="5great">To Great Extent</label>
+                </div>
+                <br>
+                <p>6. This team can get a lot done when it works hard.</p>
+                <div class="center">
+                    <input type="radio" name="q6" value="1" id="6none">
+                    <label for="6none">To No Extent</label>
+
+                    <input type="radio" name="q6" value="2" id="6limited">
+                    <label for="6limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q6" value="3" id="6some">
+                    <label for="6some">To Some Extent</label>
+
+                    <input type="radio" name="q6" value="4" id="6considerable">
+                    <label for="6considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q6" value="5" id="6great">
+                    <label for="6great">To Great Extent</label>
+                </div>
+                <br>
+                <p>7. No task is too tough for this team.</p>
+                <div class="center">
+                    <input type="radio" name="q7" value="1" id="7none">
+                    <label for="7none">To No Extent</label>
+
+                    <input type="radio" name="q7" value="2" id="7limited">
+                    <label for="7limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q7" value="3" id="7some">
+                    <label for="7some">To Some Extent</label>
+
+                    <input type="radio" name="q7" value="4" id="7considerable">
+                    <label for="7considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q7" value="5" id="7great">
+                    <label for="7great">To Great Extent</label>
+                </div>
+                <br>
+                <p>8. This team expects to have a lot of influence around here.</p>
+                <div class="center">
+                    <input type="radio" name="q8" value="1" id="8none">
+                    <label for="8none">To No Extent</label>
+
+                    <input type="radio" name="q8" value="2" id="8limited">
+                    <label for="8limited">To A Limited Extent</label>
+
+                    <input type="radio" name="q8" value="3" id="8some">
+                    <label for="8some">To Some Extent</label>
+
+                    <input type="radio" name="q8" value="4" id="8considerable">
+                    <label for="8considerable">To Considerable Extent</label>
+
+                    <input type="radio" name="q8" value="5" id="8great">
+                    <label for="8great">To Great Extent</label>
+                </div>
+                <br>
+                <div id="check">
+                    <input type="checkbox" name="report" id="report">
+                    <label for="report">Check this box if you want to receive a report of the finding
+                        of this research by email.
+                    </label>
+                </div>
+                <div>
+                    <label for="comments">Additional Comments:</label>
+                    <br>
+                    <textarea id="comments" name="comments" rows="10" cols="40"> </textarea>
+                </div>
+                <button type="submit" class="center" id="submit">
+                    <strong>Submit</strong>
+                </button>
+            </form>
+        </section>
+        <footer>
+            <img id="footerLogo" src="images/soccerball.png" alt="Soccer Ball">
+            <div id="contactInfo">
+                <p><strong>Jacob Decker</strong><br><a href="#">deckerjr@miamioh.edu</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
