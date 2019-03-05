@@ -1,2 +1,2 @@
 # CSE383-Web-Application-Programming
-Homework done in my Web Applications class
+This repository contains my answers to assignments in my Web Applications programming class at Miami University.
