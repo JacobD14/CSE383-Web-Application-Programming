@@ -1,0 +1,51 @@
+/* Elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(233, 137, 98);
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+nav {
+    background-color: #7e7b7b;
+    border-color: rgb(64,64,64);
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 0;
+    padding: 0;
+}
+
+/* ID */
+#currentPage {
+    background-color: rgb(230, 129, 36);
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Classes */
+.center {
+    text-align: center;
+}
+.name {
+    font-size: 125%;
+}
+.navigationList {
+    list-style-type: none;
+    display: inline;
+}
+.navigationList li {
+    display: inline;
+    padding: 35px;
+}
+.headerLink {
+    color: white;
+}
+.sameLine {
+    float: left;
+}
